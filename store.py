@@ -5,8 +5,8 @@ class Store:
 
     @classmethod
     def display(cls,sorted_names,data):
-	if not data:
-	    print("The stock is empty")
+        if not data:
+            print("The stock is empty")
         for name in sorted_names:
             print(f"************{sorted_names.index(name) + 1}************")
             print(f"Product name: -> {name}")
@@ -93,5 +93,3 @@ class Store:
         with open('balance.json', 'r') as file:
             data = json.load(file)
             print(data["profit"])
-
-
