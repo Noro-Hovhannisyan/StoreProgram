@@ -18,11 +18,12 @@ apple
 50
 230
 350
-stok
-count
+stock
+letter
 sell
 apple
 6
+profit
 exit
 ```
 ## Support & Contact
