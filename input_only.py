@@ -4,17 +4,9 @@ def input_int(text=""):
             number = int(input(text))
             if number > 0:
                 return number
+            else:
+                print("Please enter a number greater than 0")
+                continue
         except ValueError:
-            pass
-
-def input_yes_no(text=""):
-    while True:
-        try:
-            answer = input(text)
-            if answer in ["yes", "no"]:
-                return answer
-        except ValueError:
-            pass
-
-
-
+            print("Please enter a number")
+            continue
